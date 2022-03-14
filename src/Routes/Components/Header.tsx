@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { motion, useAnimation, useViewportScroll } from "framer-motion";
 import { Link, useMatch, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { SubmitHandler, useForm } from "react-hook-form";
+import { useForm } from "react-hook-form";
 
 const Nav = styled(motion.nav)`
   display: flex;
